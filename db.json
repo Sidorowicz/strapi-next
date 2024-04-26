@@ -1,0 +1,48 @@
+{
+     "forms": [
+          {
+               "id": 2,
+               "active": true,
+               "name": "Test CMS 2",
+               "url": "",
+               "note": "",
+               "communication": {
+                    "id": 1,
+                    "type": "email"
+               },
+               "smsNotificationBody": "",
+               "emailNotificationBody": "",
+               "smsConfirmationBody": "",
+               "emailConfirmationBody": "",
+               "createdBy": "out-mszczotarz@cichy-zasada.pl",
+               "createdOn": "2024-04-25T12:11:10.65Z",
+               "consents": [],
+               "cdpFields": [
+                    {
+                         "cdpFieldId": 13,
+                         "name": "email",
+                         "required": true,
+                         "doi": false
+                    },
+                    {
+                         "cdpFieldId": 11,
+                         "name": "mobilePhone",
+                         "required": true,
+                         "doi": false
+                    },
+                    {
+                         "cdpFieldId": 3,
+                         "name": "lastName",
+                         "required": true,
+                         "doi": false
+                    },
+                    {
+                         "cdpFieldId": 2,
+                         "name": "firstName",
+                         "required": true,
+                         "doi": false
+                    }
+               ]
+          }
+     ]
+}
